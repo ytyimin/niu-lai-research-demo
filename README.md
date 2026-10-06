@@ -1,5 +1,7 @@
 # Niu Lai: Theory–Evidence Reconciliation Demo
 
+https://niu-lai-research-demo-hnbpmpzudb2fs4xcbcp2eb.streamlit.app/
+
 **The default browser demo uses the Niu Lai case.** It walks reviewers through
 five approval steps, the authored sequential survival review, and downloadable
 audit records. It uses the supplied fixed reference outputs and requires no API
