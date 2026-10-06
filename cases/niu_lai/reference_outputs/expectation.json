@@ -1,0 +1,25 @@
+{
+  "expectations": [
+    {
+      "source_id": "BSR2010",
+      "expected_pattern": "Net purchase response depends on the balance between awareness and evaluation.",
+      "inferential_status": "qualified application to a different cultural product",
+      "assumptions": [
+        "Prior awareness is low.",
+        "Publicity reaches potential purchasers."
+      ],
+      "boundary_conditions": [
+        "High awareness changes the balance.",
+        "Intermediary supply constrains realized purchases."
+      ]
+    }
+  ],
+  "integrated_expectation": "The source does not warrant a determinate sign on purchases in this context; record a qualified expectation and inspect awareness, evaluation, and availability separately.",
+  "strongest_alternative_reading": "Commercial growth may be compatible with the source rather than a contradiction.",
+  "strength": "qualified",
+  "source_passage_ids": [
+    "BSR2010-P1",
+    "BSR2010-P2",
+    "BSR2010-P3"
+  ]
+}

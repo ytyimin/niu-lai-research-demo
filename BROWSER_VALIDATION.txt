@@ -1,0 +1,47 @@
+NIU LAI BROWSER ADAPTATION — 2026-10-06 UTC
+
+Based on the attached Prototype-v3.zip, whose scientific software version is 0.4.0.
+
+Changes
+- app.py now opens the Niu Lai case and its five-step authored reference workflow.
+- The original app.py is preserved byte-for-byte as synthetic_app.py for local use.
+- The bound reference adapter checks the scientific input hashes before replay.
+- The scientific workflow stops at reconstruction_locked. Transfer is not evaluated.
+- A separate browser view runs the existing authored sequential survival review.
+- The survival view distinguishes five recovered qualified outcomes from the
+  one assessed removal scenario; the remaining ten scenarios are unassessed.
+- Each visitor session has a distinct run directory. Starting a new demo does
+  not delete or overwrite an earlier run's scientific records.
+- Downloadable Markdown reports and a session audit ZIP expose the records.
+- GitHub deployment instructions, a presenter walkthrough, and automated checks
+  are included.
+
+Checks completed in this workspace
+- Python 3.12.14.
+- Original 30 workflow/backtest checks passed.
+- Three new export checks passed: no scientific-state or record mutation by
+  export; incomplete/wrong-case export rejected; one-session archive boundaries
+  and inclusion of the survival review verified.
+- unittest discovered 35 tests: 33 passed and two Streamlit AppTest checks skipped.
+- New interface and export code passed Python syntax compilation.
+- All 81 original files other than app.py and README.md remain byte-for-byte
+  identical. The original interface is retained separately without changes.
+
+Remaining validation
+- Streamlit was unavailable in this workspace and could not be installed here.
+  The actual Streamlit renderer, browser interactions, and hosted deployment
+  have not been exercised here.
+- The two supplied Streamlit AppTest checks exercise all five approval steps,
+  survival generation, audit/source view, session isolation, and non-destructive
+  restart once Streamlit is installed.
+- The included GitHub Actions workflow installs Streamlit and executes these
+  checks. Require that run to pass, then complete the live reviewer walkthrough
+  before sharing the URL in the proposal.
+- No GitHub repository or Streamlit deployment has been created by this package.
+
+Scientific scope
+This remains an authored fixed-corpus methodological illustration. The browser
+adaptation does not add model invocations, independent source verification,
+expert review, historical AI-benefit estimates, causal identification, or
+independent transfer evidence. The original case and theory rights are retained.
+VALIDATION.txt records the earlier package's validation, not new browser results.

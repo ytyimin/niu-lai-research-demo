@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this prototype, cite the released research artifact."
+title: "AI-Enabled Theory–Evidence Reconciliation Workflow for Qualitative Theorizing"
+type: software
+version: 0.4.0
+date-released: 2026-09-20
+authors:
+  - name: "Add project authors before release"
+license: MIT
+repository-code: "ADD_IMMUTABLE_REPOSITORY_URL_BEFORE_RELEASE"

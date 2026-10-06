@@ -1,0 +1,1024 @@
+{
+  "schema_version": "0.4.0",
+  "status": "removal_specification_not_outcome_data",
+  "case_id": "niu_lai_illustration",
+  "ledger": {
+    "schema_version": "0.4.0",
+    "case_id": "niu_lai_illustration",
+    "data_kind": "authored_illustration",
+    "status": "worked_contribution_record_not_historical_provenance",
+    "baseline": {
+      "provenance": "The supplied case synthesis. Its original use of AI, if any, is unknown.",
+      "pre_assistance_checkpoint_available": false,
+      "already_in_attachment": [
+        "Commercial reversal after adverse attention",
+        "Polarized ratings",
+        "Memes and audience participation",
+        "Divergent exhibitor judgments"
+      ],
+      "not_supplied": [
+        "Time-stamped pre-assistance research drafts",
+        "Original AI prompts or outputs",
+        "Original researcher decisions and dependencies",
+        "Independently documented alternative derivations",
+        "Observed bounded removal replays",
+        "Independent held-out case"
+      ],
+      "attribution_status": "Historical amount of AI help is indeterminate from this attachment.",
+      "survival_assessment_eligible": true,
+      "scope_note": "Missing original process history limits discovery attribution. It does not preclude a retrospective derivation from declared retained inputs."
+    },
+    "nodes": [
+      {
+        "node_id": "E0",
+        "kind": "evidence",
+        "text": "Supplied case note, including participation and exhibitor disagreement.",
+        "depends_on": [],
+        "source_ids": [
+          "N1",
+          "N2",
+          "N3",
+          "N4",
+          "N5"
+        ],
+        "provenance": "attachment; original AI provenance unknown"
+      },
+      {
+        "node_id": "T0",
+        "kind": "source",
+        "text": "Verified awareness qualification from Berger, Sorensen, and Rasmussen (2010).",
+        "depends_on": [],
+        "source_ids": [
+          "BSR2010-P1",
+          "BSR2010-P2",
+          "BSR2010-P3"
+        ],
+        "provenance": "Published source retained for verification; whether the original researcher located it is undocumented."
+      },
+      {
+        "node_id": "A1",
+        "kind": "ai_contribution",
+        "step": 1,
+        "text": "Preserve participation and exhibitor disagreement in the empirical puzzle.",
+        "depends_on": [
+          "E0"
+        ],
+        "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+        "baseline_status": "Already in the attachment; repetition does not establish a discovery."
+      },
+      {
+        "node_id": "A2",
+        "kind": "ai_contribution",
+        "step": 2,
+        "text": "Connect the apparent publicity puzzle to the published awareness qualification.",
+        "depends_on": [
+          "E0",
+          "T0"
+        ],
+        "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+        "baseline_status": "Source-grounded addition in this revision; absent from the note, but the original researcher’s prior knowledge is unknown."
+      },
+      {
+        "node_id": "A3",
+        "kind": "ai_contribution",
+        "step": 3,
+        "text": "State a qualified expectation and identify the inference involved in applying the source.",
+        "depends_on": [
+          "A2",
+          "T0"
+        ],
+        "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+        "baseline_status": "No pre-assistance expectation is supplied; an actual correction of an earlier researcher error is unobserved."
+      },
+      {
+        "node_id": "A4",
+        "kind": "ai_contribution",
+        "step": 4,
+        "text": "Decline a blanket contradiction and leave individual purchaser motives unresolved.",
+        "depends_on": [
+          "D3",
+          "E0"
+        ],
+        "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+        "baseline_status": "Illustrative adjudication; its historical dependence on AI is unknown."
+      },
+      {
+        "node_id": "A5",
+        "kind": "ai_contribution",
+        "step": 5,
+        "text": "Specify a participatory-value conjecture and a test that distinguishes it from awareness and access.",
+        "depends_on": [
+          "A4",
+          "E0"
+        ],
+        "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+        "baseline_status": "Authored conjecture and proposed test; no causal or transfer validation supplied."
+      },
+      {
+        "node_id": "D3",
+        "kind": "derived_record",
+        "text": "Approved qualified expectation in the scripted illustration.",
+        "depends_on": [
+          "A3"
+        ],
+        "provenance": "Authored approval record; illustrates that a human reformulation or approval must not retain a removed suggestion."
+      },
+      {
+        "node_id": "D5",
+        "kind": "derived_record",
+        "text": "Locked tentative reconstruction in the scripted illustration.",
+        "depends_on": [
+          "A5"
+        ],
+        "provenance": "Authored approval record; not independent human adjudication."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "I1",
+        "text": "The empirical pattern includes participation and exhibitor disagreement.",
+        "routes": [
+          [
+            "E0"
+          ],
+          [
+            "A1"
+          ]
+        ],
+        "baseline_status": "Already present; no discovery credit from repeating it.",
+        "step": 1
+      },
+      {
+        "claim_id": "I2",
+        "text": "A published awareness mechanism qualifies the apparent negative-publicity puzzle.",
+        "routes": [
+          [
+            "A2",
+            "T0"
+          ]
+        ],
+        "baseline_status": "Documented addition to this revision, not evidence of the original researcher’s ignorance.",
+        "step": 2
+      },
+      {
+        "claim_id": "I3",
+        "text": "The source warrants a qualified expectation rather than a universal commercial-failure prediction.",
+        "routes": [
+          [
+            "D3",
+            "T0"
+          ]
+        ],
+        "baseline_status": "No original pre-assistance expectation supplied.",
+        "step": 3
+      },
+      {
+        "claim_id": "I4",
+        "text": "The aggregate direction is compatible with the qualified expectation, while motives remain unresolved.",
+        "routes": [
+          [
+            "A4",
+            "E0"
+          ]
+        ],
+        "baseline_status": "Illustrative theory–evidence judgment.",
+        "step": 4
+      },
+      {
+        "claim_id": "I5",
+        "text": "Participatory value is a candidate mechanism requiring evidence that distinguishes it from awareness and access.",
+        "routes": [
+          [
+            "D5",
+            "E0"
+          ]
+        ],
+        "baseline_status": "Research question and proposed test, not an established mechanism.",
+        "step": 5
+      }
+    ],
+    "removals": [
+      {
+        "removal_id": "without_A1",
+        "node_ids": [
+          "A1"
+        ],
+        "rationale": "Inspect the candidate contribution at Step 1."
+      },
+      {
+        "removal_id": "without_A2",
+        "node_ids": [
+          "A2"
+        ],
+        "rationale": "Inspect the candidate contribution at Step 2."
+      },
+      {
+        "removal_id": "without_A3",
+        "node_ids": [
+          "A3"
+        ],
+        "rationale": "Inspect the candidate contribution at Step 3."
+      },
+      {
+        "removal_id": "without_A4",
+        "node_ids": [
+          "A4"
+        ],
+        "rationale": "Inspect the candidate contribution at Step 4."
+      },
+      {
+        "removal_id": "without_A5",
+        "node_ids": [
+          "A5"
+        ],
+        "rationale": "Inspect the candidate contribution at Step 5."
+      },
+      {
+        "removal_id": "without_A2_A3",
+        "node_ids": [
+          "A2",
+          "A3"
+        ],
+        "rationale": "Inspect the combined literature connection and expectation qualification."
+      },
+      {
+        "removal_id": "without_A4_A5",
+        "node_ids": [
+          "A4",
+          "A5"
+        ],
+        "rationale": "Inspect the combined adjudication and reconstruction."
+      },
+      {
+        "removal_id": "without_recorded_AI",
+        "node_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5"
+        ],
+        "rationale": "Inspect all candidate AI contributions in this record; this does not recreate an unassisted researcher."
+      },
+      {
+        "removal_id": "without_steps_1_to_2",
+        "node_ids": [
+          "A1",
+          "A2"
+        ],
+        "rationale": "Cumulative removal from the initial puzzle; reassess downstream outcomes on this branch."
+      },
+      {
+        "removal_id": "without_steps_1_to_3",
+        "node_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "rationale": "Cumulative removal from the initial puzzle; reassess downstream outcomes on this branch."
+      },
+      {
+        "removal_id": "without_steps_1_to_4",
+        "node_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "A4"
+        ],
+        "rationale": "Cumulative removal from the initial puzzle; reassess downstream outcomes on this branch."
+      }
+    ],
+    "route_semantics": "Each route requires its nodes and ancestors. Alternative declared routes are disjunctive. A missing declared route invites retrospective reconstruction; it is not an automatic finding of non-survival.",
+    "historical_ai_benefit_estimate": null,
+    "limits": "The initial graph is authored and may omit alternative routes. The sequential review may establish new routes under the declared premises. Survival judgments and historical discovery attribution are separate.",
+    "retained_input_policy": "Retain the supplied case evidence E0 and verified theory note T0 as the eligible corpus. Withdraw identified AI contributions and their old descendants. Allow new arguments from retained premises. T0 is curated for this retrospective illustration; its availability does not establish independent discovery by the original researcher. In the joint removal, no AI-contribution node remains available as a premise."
+  },
+  "source_hashes": {
+    "attachment_baseline.json": "88d241993e35edb566239292543d0ec40d583276ce021e35d33d69d30b171b31",
+    "contribution_ledger.json": "9db67d830177d5cbe26d0bb2a0410251eff6035c9499fa7e7282d44ce95a13d3",
+    "evidence.json": "5a4b8f60bacdb7c0757c09719ab168a6facb5a4cb9e5ca7cc05f9d13ea37ddcf",
+    "held_out_evidence.json": "a640c8fae00be0bbe2865408c7cdf9015ea779ed4ef547320d9288eab17cfd48",
+    "illustration.json": "d31a0d19d868baa57de3557d0f9dce5010a78e6b67f39457b50495911260edbc",
+    "manifest.json": "032798af405d23b5fca5fad73f84df956a561606920255a2f84a54267dbee337",
+    "neutral_context.json": "b5685b33898a03468054a209de1e5dba31690c8f3e2f289802ec6c22f2123442",
+    "reference_outputs/challenge.json": "dc076072b2afadffdf1acb65cb9fdf87c68a99cc92791dbc791e5c58aab9d3eb",
+    "reference_outputs/contradiction.json": "92765b85377fbfb6d799221a1382bd17bff0978cc86c60db634ba8f0a7f2621a",
+    "reference_outputs/expectation.json": "46f730a344375e2da468d419e8a84942b3ca990c9cdd651f8084bc1535e57470",
+    "reference_outputs/input_hashes.json": "cd1438d47b0e0646ed7c27034853e77d486e877dbaf3cb9d1fb611b94b0d27c0",
+    "reference_outputs/provenance.json": "c191c776162baad59f7e538b74cae59bb81ebe620bfdc2583974012012bc08d9",
+    "reference_outputs/reconstruction.json": "88eede93d1efbdc5a1377c0c934725a96c818dc70cdb54cc3365525d5867bc44",
+    "retrospective_survival_review.json": "026e0d6a1da9acd106df253e4691c917fa4ef51721f1a374ff8dd34a7d14fa5f",
+    "source_verification.json": "ce61c368c3c5935b15ef2bfa36f7d921b53545039aa94c122d44aa77329006b9",
+    "theory_sources/negative_publicity.json": "5f932722eccc67b4294d8fb4b8da809909f5575e051abe5eb526085d00af7e13"
+  },
+  "removal_traces": [
+    {
+      "removal_id": "without_A1",
+      "removed_contribution_ids": [
+        "A1"
+      ],
+      "excluded_node_ids": [
+        "A1"
+      ],
+      "excluded_descendant_ids": [],
+      "retained_node_ids": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [
+            [
+              "A2",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [
+            [
+              "D3",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [
+            [
+              "A4",
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [
+            [
+              "D5",
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_A2",
+      "removed_contribution_ids": [
+        "A2"
+      ],
+      "excluded_node_ids": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "A1",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ],
+            [
+              "A1"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_A3",
+      "removed_contribution_ids": [
+        "A3"
+      ],
+      "excluded_node_ids": [
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "A1",
+        "A2",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ],
+            [
+              "A1"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [
+            [
+              "A2",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_A4",
+      "removed_contribution_ids": [
+        "A4"
+      ],
+      "excluded_node_ids": [
+        "A4",
+        "A5",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A5",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "D3",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ],
+            [
+              "A1"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [
+            [
+              "A2",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [
+            [
+              "D3",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_A5",
+      "removed_contribution_ids": [
+        "A5"
+      ],
+      "excluded_node_ids": [
+        "A5",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "D5"
+      ],
+      "retained_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "D3",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ],
+            [
+              "A1"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [
+            [
+              "A2",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [
+            [
+              "D3",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [
+            [
+              "A4",
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_A2_A3",
+      "removed_contribution_ids": [
+        "A2",
+        "A3"
+      ],
+      "excluded_node_ids": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "A1",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ],
+            [
+              "A1"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_A4_A5",
+      "removed_contribution_ids": [
+        "A4",
+        "A5"
+      ],
+      "excluded_node_ids": [
+        "A4",
+        "A5",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "D5"
+      ],
+      "retained_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "D3",
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ],
+            [
+              "A1"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [
+            [
+              "A2",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [
+            [
+              "D3",
+              "T0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_recorded_AI",
+      "removed_contribution_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "excluded_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_steps_1_to_2",
+      "removed_contribution_ids": [
+        "A1",
+        "A2"
+      ],
+      "excluded_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_steps_1_to_3",
+      "removed_contribution_ids": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "excluded_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    },
+    {
+      "removal_id": "without_steps_1_to_4",
+      "removed_contribution_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "excluded_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "excluded_descendant_ids": [
+        "A5",
+        "D3",
+        "D5"
+      ],
+      "retained_node_ids": [
+        "E0",
+        "T0"
+      ],
+      "claims": [
+        {
+          "claim_id": "I1",
+          "surviving_declared_routes": [
+            [
+              "E0"
+            ]
+          ],
+          "trace_status": "declared_route_remains"
+        },
+        {
+          "claim_id": "I2",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I3",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I4",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        },
+        {
+          "claim_id": "I5",
+          "surviving_declared_routes": [],
+          "trace_status": "no_declared_route_remains"
+        }
+      ],
+      "interpretation": "Structural consequences of the supplied graph only. A surviving route requires provenance and source review; no surviving route does not prove non-attainability."
+    }
+  ],
+  "historical_attribution": "indeterminate",
+  "evaluation_question": "Can each outcome be derived without the removed contributions under the declared retained inputs and procedures?",
+  "retained_input_policy": "Retain the supplied case evidence E0 and verified theory note T0 as the eligible corpus. Withdraw identified AI contributions and their old descendants. Allow new arguments from retained premises. T0 is curated for this retrospective illustration; its availability does not establish independent discovery by the original researcher. In the joint removal, no AI-contribution node remains available as a premise.",
+  "implementation": "Missing historical checkpoints do not block retrospective survival assessment. The planner computes exclusions; reviewers supply and assess replacement derivations.",
+  "plan_hash": "5b95e1c5c2835f3cb211f28f4e1f2c599200196e53b17e011849a2f33167140a"
+}

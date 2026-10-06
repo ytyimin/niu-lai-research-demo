@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-10-02",
+  "sources": {
+    "CASE_NOTE": "Supplied illustrative-case(1).pdf, body of case note on PDF pages 1–2; email headers excluded.",
+    "BOX_OFFICE": "https://zgdypf.zgdypw.cn/movie/detail/00103542025?from=box",
+    "THE_PAPER": "https://m.thepaper.cn/newsDetail_forward_33790277",
+    "GLOBAL_TIMES": "https://www.globaltimes.cn/page/202608/1368808.shtml",
+    "ITHOME": "https://www.ithome.com/0/991/850.htm"
+  },
+  "checks": [
+    {
+      "source_id": "BOX_OFFICE",
+      "status": "partially_verified",
+      "details": "Release date 2026-08-05; first-day 0.34 wan RMB; first-week 0.55 wan RMB. Live total displayed 6400.65 wan RMB (64.0065 million), versus about 63.95 million in the case-note snapshot. Preserve both as distinct snapshots; do not silently revise the historical figure."
+    },
+    {
+      "source_id": "THE_PAPER",
+      "status": "partially_verified",
+      "details": "Linked report concerns about RMB 1.3 million and August 15 screening decisions. It cannot support August 16–19 outcomes by itself."
+    },
+    {
+      "source_id": "GLOBAL_TIMES",
+      "status": "not_independently_verified",
+      "details": "Linked full text unavailable during verification; case-note claims remain attributed to the supplied synthesis."
+    },
+    {
+      "source_id": "ITHOME",
+      "status": "not_fully_verified",
+      "details": "Title was retrievable but detailed rating distributions were not independently verified."
+    }
+  ],
+  "use_rule": "Use qualitative sequence for method illustration. Verify precise dates, daily amounts, definitions of gross, rating snapshots, and source permissions before treating the packet as study evidence."
+}

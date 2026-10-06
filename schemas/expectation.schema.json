@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/expectation.schema.json",
+  "title": "Locked expectation ledger",
+  "type": "object",
+  "required": [
+    "expectations",
+    "integrated_expectation",
+    "strongest_alternative_reading",
+    "strength",
+    "source_passage_ids",
+    "challenge",
+    "selected_source_ids",
+    "allowed_input_hash",
+    "allowed_input_keys",
+    "locked"
+  ],
+  "properties": {
+    "expectations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "expected_pattern",
+          "inferential_status",
+          "assumptions",
+          "boundary_conditions"
+        ],
+        "properties": {
+          "source_id": {"type": "string"},
+          "expected_pattern": {"type": "string", "minLength": 1},
+          "inferential_status": {"type": "string"},
+          "assumptions": {"type": "array", "items": {"type": "string"}},
+          "boundary_conditions": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "integrated_expectation": {"type": "string", "minLength": 1},
+    "strongest_alternative_reading": {"type": "string", "minLength": 1},
+    "strength": {"type": "string", "enum": ["determinate", "qualified", "indeterminate"]},
+    "source_passage_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "challenge": {
+      "type": "object",
+      "required": ["strongest_objection", "scope_problem", "missing_assumption", "recommended_resolution"],
+      "properties": {
+        "strongest_objection": {"type": "string"},
+        "scope_problem": {"type": "string"},
+        "missing_assumption": {"type": "string"},
+        "recommended_resolution": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "selected_source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "allowed_input_hash": {"type": "string", "minLength": 64},
+    "allowed_input_keys": {"type": "array", "items": {"type": "string"}},
+    "locked": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

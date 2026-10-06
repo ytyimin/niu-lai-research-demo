@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/contradiction.schema.json",
+  "title": "Contradiction record",
+  "type": "object",
+  "required": [
+    "expected_pattern",
+    "observed_pattern",
+    "discrepancy_types",
+    "strongest_non_contradictory_reading",
+    "classification",
+    "adjudication_reason",
+    "evidence_ids",
+    "confidence",
+    "human_adjudicated"
+  ],
+  "properties": {
+    "expected_pattern": {"type": "string", "minLength": 1},
+    "observed_pattern": {"type": "string", "minLength": 1},
+    "discrepancy_types": {"type": "array", "items": {"type": "string"}},
+    "strongest_non_contradictory_reading": {"type": "string", "minLength": 1},
+    "classification": {
+      "type": "string",
+      "enum": ["contradiction", "qualification", "compatibility", "unresolved"]
+    },
+    "adjudication_reason": {"type": "string", "minLength": 1},
+    "evidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "confidence": {"type": "string"},
+    "human_adjudicated": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

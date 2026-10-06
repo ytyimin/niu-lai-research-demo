@@ -1,0 +1,19 @@
+{
+  "organization": "HarborLine Services, a fictional regional maintenance network",
+  "actors": [
+    "regional dispatch teams",
+    "central operations managers",
+    "field maintenance crews"
+  ],
+  "setting": "Time-sensitive service disruptions sometimes require reallocating crews across regions.",
+  "change": "HarborLine introduced a shared capacity dashboard and, at the same time, required central approval for every cross-region reallocation.",
+  "constructs": [
+    "formal approval",
+    "information visibility",
+    "lateral coordination",
+    "response process"
+  ],
+  "time_horizon": "The first twelve weeks after implementation",
+  "level_of_analysis": "Interunit coordination episode",
+  "question": "How should the selected literatures lead us to expect cross-region disruptions to be coordinated in this setting?"
+}

@@ -1,0 +1,36 @@
+{
+  "selected_mechanism": "Shared capacity visibility enables reversible anticipatory coordination. Regional teams identify partners and assemble a provisional plan before formal authorization, converting central approval from a search-and-initiation stage into a ratification stage.",
+  "explanatory_gain": "The mechanism explains why added formal control coincided with faster response without claiming that approval itself caused speed. It locates the change in the sequencing and function of approval.",
+  "evidence_coverage": {
+    "E1": "Establishes the additional formal approval requirement.",
+    "E2": "Shows faster resolution and increased lateral communication.",
+    "E3": "Describes provisional reservation and plan assembly before approval.",
+    "E4": "Shows that managers usually verified rather than originated solutions."
+  },
+  "rival_accounts": [
+    "Incident difficulty may have changed despite the available comparison.",
+    "Managers may have informally delegated authority independent of the dashboard."
+  ],
+  "observations_against": [
+    "Managers frequently originate or materially revise proposed reallocations.",
+    "Lateral planning persists when capacity information is unavailable.",
+    "The same acceleration occurs for irreversible, high-liability actions."
+  ],
+  "prospective_transfer_predictions": [
+    {
+      "prediction_id": "P1",
+      "claim": "The mechanism should travel when capacity is mutually visible, provisional commitments are reversible, and the approver usually ratifies well-supported plans."
+    },
+    {
+      "prediction_id": "P2",
+      "claim": "The mechanism should fail when decisions are irreversible or carry high liability, because authorization should remain the initiating stage."
+    },
+    {
+      "prediction_id": "P3",
+      "claim": "The mechanism should weaken when dashboard information is stale or distrusted."
+    }
+  ],
+  "residual_anomalies": [
+    "The current packet cannot isolate dashboard visibility from concurrent informal delegation."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "selected_mechanism": "Candidate only: collectively enacted participation creates value despite unfavorable aesthetic judgments, while exhibitors enable or constrain access.",
+  "explanatory_gain": "Directs inquiry toward participation and intermediary decisions; the supplied account does not establish causality or novelty relative to a complete literature review.",
+  "evidence_coverage": {
+    "N3": "Exhibitor disagreement motivates an access boundary.",
+    "N4": "Memes and participatory responses motivate the conjecture but do not establish typical motives."
+  },
+  "rival_accounts": [
+    "Awareness and curiosity",
+    "Expanded screening availability",
+    "Sympathy for the creators",
+    "Selective reporting or audience selection"
+  ],
+  "observations_against": [
+    "Interviewed purchasers do not value shared participation.",
+    "Comparable visibility and access explain purchasing without participation differences."
+  ],
+  "prospective_transfer_predictions": [
+    {
+      "prediction_id": "P1",
+      "claim": "In a new comparison with similar awareness and access, variation in opportunities for shared participation should correspond to participation-oriented purchaser motives if the proposed mechanism operates."
+    },
+    {
+      "prediction_id": "P2",
+      "claim": "Where intermediaries withhold access, attention and participation should translate less readily into realized attendance, conditional on comparable demand."
+    }
+  ],
+  "residual_anomalies": [
+    "Purchaser motives, temporal ordering, and the role of supply are not identified.",
+    "Polarized platform ratings may reflect different audiences or ironic responding.",
+    "No independent transfer evidence is available."
+  ]
+}

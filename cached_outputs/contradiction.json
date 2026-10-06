@@ -1,0 +1,19 @@
+{
+  "expected_pattern": "Formal authorization should precede consequential cross-region commitment and should ordinarily add a queue even when the dashboard improves information search.",
+  "observed_pattern": "Teams used shared visibility to assemble and provisionally reserve a lateral solution before approval; managers usually ratified that solution, while recorded response time fell.",
+  "discrepancy_types": [
+    "sequence",
+    "mechanism",
+    "actor"
+  ],
+  "strongest_non_contradictory_reading": "The evidence may instantiate the theory notes' stated boundary condition: provisional commitments were reversible and approval was nearly automatic, so the original expectation was too strong for this setting.",
+  "classification": "contradiction",
+  "adjudication_reason": "The result is theoretically consequential if the formal approval's function changed from initiating coordination to ratifying a laterally assembled plan. It is not a simple claim that approval universally increases speed.",
+  "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+  ],
+  "confidence": "moderate"
+}

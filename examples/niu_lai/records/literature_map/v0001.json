@@ -1,0 +1,21 @@
+{
+  "actor": "scripted_illustration_not_independent_reviewer",
+  "created_at": "2026-10-03T05:19:01+00:00",
+  "payload": {
+    "approved": true,
+    "corpus_boundary": "One verified published theory note and a declared list of additional candidate lenses; no exhaustive search is claimed.",
+    "coverage_gaps": [
+      "The demonstration corpus is intentionally small and not representative"
+    ],
+    "inclusion_reasons": {
+      "BSR2010": "Provides an established alternative to the blanket expectation that negative publicity must reduce sales."
+    },
+    "rejected_source_ids": [],
+    "selected_source_ids": [
+      "BSR2010"
+    ]
+  },
+  "payload_hash": "83764509759fae93329a544f8dd48a4965f61d3f01e840d0da34b99071e34a94",
+  "record_type": "literature_map",
+  "version": 1
+}

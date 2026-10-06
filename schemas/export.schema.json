@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/export.schema.json",
+  "title": "Export record",
+  "type": "object",
+  "required": ["report_path"],
+  "properties": {
+    "report_path": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

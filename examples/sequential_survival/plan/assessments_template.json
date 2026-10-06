@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.4.0",
+  "plan_hash": "5b95e1c5c2835f3cb211f28f4e1f2c599200196e53b17e011849a2f33167140a",
+  "data_kind": "not_collected",
+  "review_mode": "sequential_survival",
+  "assessments": [],
+  "record_contract": {
+    "removal_id": "A removal_id from plan.json",
+    "claim_id": "A claim_id from the frozen ledger",
+    "status": [
+      "indeterminate",
+      "not_recovered_within_budget",
+      "recovered_equivalent",
+      "weakened"
+    ],
+    "basis": [
+      "bounded_model_replay",
+      "bounded_search_review",
+      "documented_independent_derivation",
+      "insufficient_evidence",
+      "retrospective_derivation"
+    ],
+    "support_with": [
+      "partially_supported",
+      "supported",
+      "unsupported",
+      "unverifiable"
+    ],
+    "support_without": [
+      "partially_supported",
+      "supported",
+      "unsupported",
+      "unverifiable"
+    ],
+    "quality_without_vs_with": [
+      "improves",
+      "indeterminate",
+      "unchanged",
+      "worsens"
+    ],
+    "retained_input_ids": "Eligible retained node IDs used as direct premises; exclude removed inputs and their descendants",
+    "derivation_id": "Unique identifier for a supported replacement derivation",
+    "replacement_outcome": "Exact substantive claim and scope established on this removal branch",
+    "derivation": "Reviewable inferential steps from the retained premises to the replacement outcome",
+    "upstream_derivation_ids": "Earlier supported derivation IDs from this same removal branch, or [] for a direct route",
+    "upstream_outcomes_used": "Map each upstream ID to the exact replacement_outcome used, preserving weakened scope",
+    "evidence_refs": "Nonempty list of reviewable checkpoint, passage, and output references for a substantive assessment",
+    "reason": "Explanation of equivalence, support, provenance, and any uncertainty",
+    "replay_protocol": "For bounded_model_replay: model_snapshot, settings, input_hash, output_hash, search_budget, completed. Supply hashes of actual inputs/outputs and identify call, token, or time bounds.",
+    "search_protocol": "For bounded_search_review: corpus_boundary, procedure, search_budget, completed. A limited search can provide evidence of non-recovery, not impossibility.",
+    "note": "An evaluator may know the target. Independence concerns the premises and reasoning of the derivation. Missing historical records constrain discovery attribution, not eligibility for this test."
+  }
+}

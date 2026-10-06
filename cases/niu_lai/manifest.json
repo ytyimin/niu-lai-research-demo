@@ -1,0 +1,18 @@
+{
+  "case_id": "niu_lai_illustration",
+  "expectation_alias": "case_B",
+  "title": "Niu Lai illustrative research packet",
+  "version": "0.4.0",
+  "provenance": "Bounded paraphrases of the supplied October 2, 2026 case note, with limited independent source checks. No raw field data or research history was supplied.",
+  "license": "Third-party source rights retained; derivative notes for review. Not CC0.",
+  "sensitivity": "public_source_illustration",
+  "external_model_calls_allowed": false,
+  "evidence_status": "secondary_synthesis_with_item_level_verification",
+  "held_out_status": "not_available",
+  "corpus_boundary": "One verified published theory note and a declared list of additional candidate lenses; no exhaustive search is claimed.",
+  "source_inclusion_reasons": {
+    "BSR2010": "Provides an established alternative to the blanket expectation that negative publicity must reduce sales."
+  },
+  "scope": "Illustration and protocol development only; no observed AI treatment effect.",
+  "private_correspondence_removed": true
+}

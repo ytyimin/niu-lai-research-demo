@@ -1,0 +1,27 @@
+{
+  "prediction_results": [
+    {
+      "prediction_id": "P1",
+      "result": "supported",
+      "reason": "H1 reports provisional reservations, near-automatic ratification, and faster response in a second routine setting."
+    },
+    {
+      "prediction_id": "P2",
+      "result": "supported",
+      "reason": "H2 reports that high-liability incidents retained central initiation and did not become faster."
+    },
+    {
+      "prediction_id": "P3",
+      "result": "supported",
+      "reason": "H3 reports that stale data disrupted lateral reservations and returned initiative to managers."
+    }
+  ],
+  "overall_assessment": "The held-out packet supports the proposed reversibility, liability, and information-quality boundaries. It does not establish causal identification or rule out all concurrent changes.",
+  "held_out_evidence_ids": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+  "post_test_revision": "Retain the mechanism but state explicitly that it concerns the function and sequence of approval, not a general performance benefit of formalization."
+}

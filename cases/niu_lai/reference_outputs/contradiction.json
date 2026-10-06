@@ -1,0 +1,18 @@
+{
+  "expected_pattern": "No unconditional direction of net purchasing is warranted by the locked expectation.",
+  "observed_pattern": "Commercial visibility and purchases reportedly rise amid negative and polarized evaluations and participation.",
+  "discrepancy_types": [
+    "unresolved mechanism"
+  ],
+  "strongest_non_contradictory_reading": "Awareness, curiosity, and screen availability may account for the reversal.",
+  "classification": "compatibility",
+  "adjudication_reason": "The pattern alone does not contradict the qualified theory. The participatory interpretation is a candidate extension that requires motive and comparison evidence.",
+  "evidence_ids": [
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "N5"
+  ],
+  "confidence": "limited by secondary synthesis and missing individual-level evidence"
+}

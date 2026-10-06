@@ -1,0 +1,23 @@
+{
+  "actor": "scripted_illustration_not_independent_reviewer",
+  "created_at": "2026-10-03T05:19:01+00:00",
+  "payload": {
+    "approved": true,
+    "evidence_ids": [
+      "N1",
+      "N2",
+      "N3",
+      "N4",
+      "N5"
+    ],
+    "observed_pattern": "The supplied note describes ticket purchasing and an expanded public following alongside critical and polarized evaluations, audience participation, and divided exhibitor responses.",
+    "rival_descriptions": [
+      "Increased awareness and screen availability may suffice.",
+      "The summary may overrepresent highly visible memes rather than typical purchaser motives."
+    ],
+    "unresolved_data_quality": []
+  },
+  "payload_hash": "690020c353d7dbfc03b601a5a541581087228a6ac4d19303ca0e741d6d05bf9f",
+  "record_type": "puzzle",
+  "version": 1
+}

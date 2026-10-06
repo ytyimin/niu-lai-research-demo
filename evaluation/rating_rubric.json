@@ -1,0 +1,54 @@
+{
+  "scale": {
+    "minimum": 1,
+    "maximum": 7,
+    "anchors": {
+      "1": "Materially unsupported or misleading",
+      "4": "Mixed or adequate with important limitations",
+      "7": "Exceptionally well supported and specific"
+    }
+  },
+  "dimensions": [
+    {
+      "id": "puzzle_preservation",
+      "question": "Does the final account preserve the original empirical pattern and its important qualifications?"
+    },
+    {
+      "id": "expectation_fidelity",
+      "question": "Is the theoretical expectation warranted by the supplied source passages, assumptions, and scope conditions?"
+    },
+    {
+      "id": "contradiction_warrant",
+      "question": "Does the claimed contradiction follow from the locked expectation and cited evidence rather than from a weakened or exaggerated theory?"
+    },
+    {
+      "id": "reconstruction_quality",
+      "question": "Does the reconstruction explain the discrepancy, cover the broader evidence, address rivals, and state observations against itself?"
+    },
+    {
+      "id": "boundary_specificity",
+      "question": "Are the proposed application and failure conditions precise enough to guide prospective inquiry?"
+    }
+  ],
+  "source_audit_categories": [
+    "supported",
+    "partially_supported",
+    "unsupported",
+    "unverifiable"
+  ],
+  "contradiction_classes": [
+    "contradiction",
+    "qualification",
+    "compatibility",
+    "unresolved"
+  ],
+  "interpretation": "Appropriate qualification, compatibility, unresolved mechanisms, and rejected reconstructions may be valuable. A supported outcome can survive removal while AI still provides practical or justificatory benefit.",
+  "claim_equivalence": "Same substantive claim at comparable scope and support, including uncertainty. Human review of the argument is required; the evaluator may know the target. Text similarity alone is insufficient.",
+  "unsupported_gap": {
+    "type": "binary",
+    "0": "No unsupported consequential theory-evidence gap asserted",
+    "1": "At least one unsupported consequential theory-evidence gap asserted",
+    "null": "Missing judgment"
+  },
+  "use": "Assess the target and replacement outcomes under the declared inputs. Separate derivability, quality, and historical discovery attribution."
+}

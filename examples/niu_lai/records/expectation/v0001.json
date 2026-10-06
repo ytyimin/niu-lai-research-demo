@@ -1,0 +1,48 @@
+{
+  "actor": "scripted_illustration_not_independent_reviewer",
+  "created_at": "2026-10-03T05:19:01+00:00",
+  "payload": {
+    "allowed_input_hash": "5f7ea77c0e592fb4b6379652261b2855ccc9ea6f7eab1f3e614419d3cac9b93d",
+    "allowed_input_keys": [
+      "case_id",
+      "neutral_context",
+      "theory_sources"
+    ],
+    "challenge": {
+      "missing_assumption": "The neutral packet does not identify the balance between publicity, evaluation, and access.",
+      "recommended_resolution": "Lock a qualified expectation without asserting a direction of net sales.",
+      "scope_problem": "The source study does not establish effects in this product context.",
+      "strongest_objection": "A universal decline prediction would discard the source qualification."
+    },
+    "expectations": [
+      {
+        "assumptions": [
+          "Prior awareness is low.",
+          "Publicity reaches potential purchasers."
+        ],
+        "boundary_conditions": [
+          "High awareness changes the balance.",
+          "Intermediary supply constrains realized purchases."
+        ],
+        "expected_pattern": "Net purchase response depends on the balance between awareness and evaluation.",
+        "inferential_status": "qualified application to a different cultural product",
+        "source_id": "BSR2010"
+      }
+    ],
+    "integrated_expectation": "The source does not warrant a determinate sign on purchases in this context; record a qualified expectation and inspect awareness, evaluation, and availability separately.",
+    "locked": true,
+    "selected_source_ids": [
+      "BSR2010"
+    ],
+    "source_passage_ids": [
+      "BSR2010-P1",
+      "BSR2010-P2",
+      "BSR2010-P3"
+    ],
+    "strength": "qualified",
+    "strongest_alternative_reading": "Commercial growth may be compatible with the source rather than a contradiction."
+  },
+  "payload_hash": "2714e6cc0a7e83cec25d4118c5502027feab2a245008eaaf0b732f5c52928f4a",
+  "record_type": "expectation",
+  "version": 1
+}

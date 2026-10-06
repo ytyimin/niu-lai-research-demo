@@ -1,0 +1,20 @@
+{
+  "source_id": "T2",
+  "title": "Synthetic Theory Note: Distributed Expertise and Shared Visibility",
+  "citation": "Demonstration source created for this prototype; not a published theory article.",
+  "license": "CC0-1.0",
+  "passages": [
+    {
+      "passage_id": "T2-P1",
+      "text": "When interdependent units can see one another's current capacities, they can identify relevant expertise and coordinate laterally without waiting for a central actor to discover available resources."
+    },
+    {
+      "passage_id": "T2-P2",
+      "text": "Shared visibility supports rapid provisional commitments when actions can be revised and when the displayed information is trusted."
+    },
+    {
+      "passage_id": "T2-P3",
+      "text": "Visibility alone does not remove formal authority. A consequential veto or unreliable information can return initiative to the center and slow the process."
+    }
+  ]
+}

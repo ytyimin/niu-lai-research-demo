@@ -1,0 +1,21 @@
+{
+  "provenance": "The supplied case synthesis. Its original use of AI, if any, is unknown.",
+  "pre_assistance_checkpoint_available": false,
+  "already_in_attachment": [
+    "Commercial reversal after adverse attention",
+    "Polarized ratings",
+    "Memes and audience participation",
+    "Divergent exhibitor judgments"
+  ],
+  "not_supplied": [
+    "Time-stamped pre-assistance research drafts",
+    "Original AI prompts or outputs",
+    "Original researcher decisions and dependencies",
+    "Independently documented alternative derivations",
+    "Observed bounded removal replays",
+    "Independent held-out case"
+  ],
+  "attribution_status": "Historical amount of AI help is indeterminate from this attachment.",
+  "survival_assessment_eligible": true,
+  "scope_note": "Missing original process history limits discovery attribution. It does not preclude a retrospective derivation from declared retained inputs."
+}

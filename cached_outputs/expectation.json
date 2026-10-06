@@ -1,0 +1,39 @@
+{
+  "expectations": [
+    {
+      "source_id": "T1",
+      "expected_pattern": "Cross-region reallocation should be initiated through the central approval channel, with authorization preceding resource commitment and adding response time.",
+      "inferential_status": "qualified inference",
+      "assumptions": [
+        "The approval is consequential rather than ceremonial.",
+        "Regional teams do not make effective commitments before authorization."
+      ],
+      "boundary_conditions": [
+        "The expectation weakens for reversible provisional actions and near-automatic approvals."
+      ]
+    },
+    {
+      "source_id": "T2",
+      "expected_pattern": "The shared dashboard should help regional teams locate capacity and prepare lateral coordination, especially for reversible actions based on trusted information.",
+      "inferential_status": "directly supported process expectation",
+      "assumptions": [
+        "Dashboard information is current and trusted.",
+        "Teams are permitted to prepare provisional commitments."
+      ],
+      "boundary_conditions": [
+        "A consequential veto or unreliable data should restore central initiative."
+      ]
+    }
+  ],
+  "integrated_expectation": "The dashboard may improve information search, but a consequential central approval should still place authorization before cross-region commitment. The combined expectation is therefore better-informed yet still centrally sequenced coordination; faster lateral resolution is not strongly warranted unless approvals are largely ratifying and provisional actions are reversible.",
+  "strongest_alternative_reading": "The two theory notes may jointly imply that most coordination can occur laterally before the formal decision, leaving approval as a final checkpoint rather than a delay-producing stage.",
+  "strength": "qualified",
+  "source_passage_ids": [
+    "T1-P1",
+    "T1-P2",
+    "T1-P3",
+    "T2-P1",
+    "T2-P2",
+    "T2-P3"
+  ]
+}

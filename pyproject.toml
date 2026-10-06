@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "theory-evidence-reconciliation-ai-workflow"
+version = "0.4.0"
+description = "A minimal auditable workflow for AI-enabled theory–evidence reconciliation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Add project authors before release"}]
+
+[tool.setuptools.packages.find]
+include = ["contradiction_workflow*"]

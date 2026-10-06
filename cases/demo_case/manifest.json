@@ -1,0 +1,15 @@
+{
+  "case_id": "harborline-coordination-001",
+  "title": "HarborLine Services: Approval, Visibility, and Faster Coordination",
+  "version": "1.0.0",
+  "provenance": "Entirely synthetic case written for this prototype",
+  "license": "CC0-1.0",
+  "sensitivity": "public_synthetic",
+  "permitted_uses": [
+    "demonstration",
+    "testing",
+    "teaching"
+  ],
+  "theorizing_mode": "process",
+  "held_out_packet": "held_out_evidence.json"
+}

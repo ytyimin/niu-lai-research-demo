@@ -1,0 +1,20 @@
+{
+  "source_id": "T1",
+  "title": "Synthetic Theory Note: Procedural Control and Authorization",
+  "citation": "Demonstration source created for this prototype; not a published theory article.",
+  "license": "CC0-1.0",
+  "passages": [
+    {
+      "passage_id": "T1-P1",
+      "text": "When a formal procedure gives a central actor veto authority, operating units are expected to seek authorization before committing resources that cross unit boundaries."
+    },
+    {
+      "passage_id": "T1-P2",
+      "text": "Additional approval can reduce variance and unauthorized action, but under time pressure it ordinarily adds a queue and lengthens response unless the approval is only ceremonial."
+    },
+    {
+      "passage_id": "T1-P3",
+      "text": "The expectation weakens when local actions are reversible, the central actor rarely rejects requests, or coordination work occurs before the formal commitment."
+    }
+  ]
+}

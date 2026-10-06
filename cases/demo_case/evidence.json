@@ -1,0 +1,29 @@
+{
+  "packet_id": "harborline-focal-evidence-v1",
+  "items": [
+    {
+      "evidence_id": "E1",
+      "source_type": "policy document",
+      "sequence": 1,
+      "text": "The new policy required a central operations manager to approve every cross-region crew reallocation before the dispatch system recorded the transfer."
+    },
+    {
+      "evidence_id": "E2",
+      "source_type": "episode log comparison",
+      "sequence": 2,
+      "text": "Across comparable routine disruptions, median resolution time fell from 94 minutes in the prior twelve weeks to 61 minutes after implementation. Messages exchanged directly between regional teams increased from a median of 3 to 11 per episode."
+    },
+    {
+      "evidence_id": "E3",
+      "source_type": "dispatcher interview",
+      "sequence": 3,
+      "text": "Once the dashboard showed who had spare capacity, dispatchers began reserving a neighboring crew and preparing the transfer while the manager reviewed the request. They described the approval as confirmation of a plan already assembled laterally."
+    },
+    {
+      "evidence_id": "E4",
+      "source_type": "manager interview and audit log",
+      "sequence": 4,
+      "text": "Managers said they now checked the proposed transfer rather than searching for a solution themselves. Two of 48 routine requests were rejected; both lacked current capacity data."
+    }
+  ]
+}

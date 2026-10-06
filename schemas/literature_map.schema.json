@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/literature_map.schema.json",
+  "title": "Literature map record",
+  "type": "object",
+  "required": [
+    "corpus_boundary",
+    "selected_source_ids",
+    "inclusion_reasons",
+    "rejected_source_ids",
+    "coverage_gaps",
+    "approved"
+  ],
+  "properties": {
+    "corpus_boundary": {"type": "string", "minLength": 1},
+    "selected_source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "inclusion_reasons": {"type": "object"},
+    "rejected_source_ids": {"type": "array", "items": {"type": "string"}},
+    "coverage_gaps": {"type": "array", "items": {"type": "string"}},
+    "approved": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+{
+  "observed_pattern": "The supplied note describes ticket purchasing and an expanded public following alongside critical and polarized evaluations, audience participation, and divided exhibitor responses.",
+  "evidence_ids": [
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "N5"
+  ],
+  "rival_descriptions": [
+    "Increased awareness and screen availability may suffice.",
+    "The summary may overrepresent highly visible memes rather than typical purchaser motives."
+  ],
+  "selected_source_ids": [
+    "BSR2010"
+  ],
+  "candidate_lenses": [
+    {
+      "lens": "Evaluation and awareness",
+      "status": "One verified source included"
+    },
+    {
+      "lens": "Collective participation and cultural consumption",
+      "status": "Candidate search direction; no literature claim yet verified"
+    },
+    {
+      "lens": "Intermediary gatekeeping",
+      "status": "Candidate search direction; no literature claim yet verified"
+    }
+  ]
+}

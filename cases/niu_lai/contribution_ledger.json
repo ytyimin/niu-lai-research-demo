@@ -1,0 +1,291 @@
+{
+  "schema_version": "0.4.0",
+  "case_id": "niu_lai_illustration",
+  "data_kind": "authored_illustration",
+  "status": "worked_contribution_record_not_historical_provenance",
+  "baseline": {
+    "provenance": "The supplied case synthesis. Its original use of AI, if any, is unknown.",
+    "pre_assistance_checkpoint_available": false,
+    "already_in_attachment": [
+      "Commercial reversal after adverse attention",
+      "Polarized ratings",
+      "Memes and audience participation",
+      "Divergent exhibitor judgments"
+    ],
+    "not_supplied": [
+      "Time-stamped pre-assistance research drafts",
+      "Original AI prompts or outputs",
+      "Original researcher decisions and dependencies",
+      "Independently documented alternative derivations",
+      "Observed bounded removal replays",
+      "Independent held-out case"
+    ],
+    "attribution_status": "Historical amount of AI help is indeterminate from this attachment.",
+    "survival_assessment_eligible": true,
+    "scope_note": "Missing original process history limits discovery attribution. It does not preclude a retrospective derivation from declared retained inputs."
+  },
+  "nodes": [
+    {
+      "node_id": "E0",
+      "kind": "evidence",
+      "text": "Supplied case note, including participation and exhibitor disagreement.",
+      "depends_on": [],
+      "source_ids": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5"
+      ],
+      "provenance": "attachment; original AI provenance unknown"
+    },
+    {
+      "node_id": "T0",
+      "kind": "source",
+      "text": "Verified awareness qualification from Berger, Sorensen, and Rasmussen (2010).",
+      "depends_on": [],
+      "source_ids": [
+        "BSR2010-P1",
+        "BSR2010-P2",
+        "BSR2010-P3"
+      ],
+      "provenance": "Published source retained for verification; whether the original researcher located it is undocumented."
+    },
+    {
+      "node_id": "A1",
+      "kind": "ai_contribution",
+      "step": 1,
+      "text": "Preserve participation and exhibitor disagreement in the empirical puzzle.",
+      "depends_on": [
+        "E0"
+      ],
+      "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+      "baseline_status": "Already in the attachment; repetition does not establish a discovery."
+    },
+    {
+      "node_id": "A2",
+      "kind": "ai_contribution",
+      "step": 2,
+      "text": "Connect the apparent publicity puzzle to the published awareness qualification.",
+      "depends_on": [
+        "E0",
+        "T0"
+      ],
+      "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+      "baseline_status": "Source-grounded addition in this revision; absent from the note, but the original researcher’s prior knowledge is unknown."
+    },
+    {
+      "node_id": "A3",
+      "kind": "ai_contribution",
+      "step": 3,
+      "text": "State a qualified expectation and identify the inference involved in applying the source.",
+      "depends_on": [
+        "A2",
+        "T0"
+      ],
+      "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+      "baseline_status": "No pre-assistance expectation is supplied; an actual correction of an earlier researcher error is unobserved."
+    },
+    {
+      "node_id": "A4",
+      "kind": "ai_contribution",
+      "step": 4,
+      "text": "Decline a blanket contradiction and leave individual purchaser motives unresolved.",
+      "depends_on": [
+        "D3",
+        "E0"
+      ],
+      "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+      "baseline_status": "Illustrative adjudication; its historical dependence on AI is unknown."
+    },
+    {
+      "node_id": "A5",
+      "kind": "ai_contribution",
+      "step": 5,
+      "text": "Specify a participatory-value conjecture and a test that distinguishes it from awareness and access.",
+      "depends_on": [
+        "A4",
+        "E0"
+      ],
+      "provenance": "candidate AI contribution in an authored illustration; not an observed original research event",
+      "baseline_status": "Authored conjecture and proposed test; no causal or transfer validation supplied."
+    },
+    {
+      "node_id": "D3",
+      "kind": "derived_record",
+      "text": "Approved qualified expectation in the scripted illustration.",
+      "depends_on": [
+        "A3"
+      ],
+      "provenance": "Authored approval record; illustrates that a human reformulation or approval must not retain a removed suggestion."
+    },
+    {
+      "node_id": "D5",
+      "kind": "derived_record",
+      "text": "Locked tentative reconstruction in the scripted illustration.",
+      "depends_on": [
+        "A5"
+      ],
+      "provenance": "Authored approval record; not independent human adjudication."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "I1",
+      "text": "The empirical pattern includes participation and exhibitor disagreement.",
+      "routes": [
+        [
+          "E0"
+        ],
+        [
+          "A1"
+        ]
+      ],
+      "baseline_status": "Already present; no discovery credit from repeating it.",
+      "step": 1
+    },
+    {
+      "claim_id": "I2",
+      "text": "A published awareness mechanism qualifies the apparent negative-publicity puzzle.",
+      "routes": [
+        [
+          "A2",
+          "T0"
+        ]
+      ],
+      "baseline_status": "Documented addition to this revision, not evidence of the original researcher’s ignorance.",
+      "step": 2
+    },
+    {
+      "claim_id": "I3",
+      "text": "The source warrants a qualified expectation rather than a universal commercial-failure prediction.",
+      "routes": [
+        [
+          "D3",
+          "T0"
+        ]
+      ],
+      "baseline_status": "No original pre-assistance expectation supplied.",
+      "step": 3
+    },
+    {
+      "claim_id": "I4",
+      "text": "The aggregate direction is compatible with the qualified expectation, while motives remain unresolved.",
+      "routes": [
+        [
+          "A4",
+          "E0"
+        ]
+      ],
+      "baseline_status": "Illustrative theory–evidence judgment.",
+      "step": 4
+    },
+    {
+      "claim_id": "I5",
+      "text": "Participatory value is a candidate mechanism requiring evidence that distinguishes it from awareness and access.",
+      "routes": [
+        [
+          "D5",
+          "E0"
+        ]
+      ],
+      "baseline_status": "Research question and proposed test, not an established mechanism.",
+      "step": 5
+    }
+  ],
+  "removals": [
+    {
+      "removal_id": "without_A1",
+      "node_ids": [
+        "A1"
+      ],
+      "rationale": "Inspect the candidate contribution at Step 1."
+    },
+    {
+      "removal_id": "without_A2",
+      "node_ids": [
+        "A2"
+      ],
+      "rationale": "Inspect the candidate contribution at Step 2."
+    },
+    {
+      "removal_id": "without_A3",
+      "node_ids": [
+        "A3"
+      ],
+      "rationale": "Inspect the candidate contribution at Step 3."
+    },
+    {
+      "removal_id": "without_A4",
+      "node_ids": [
+        "A4"
+      ],
+      "rationale": "Inspect the candidate contribution at Step 4."
+    },
+    {
+      "removal_id": "without_A5",
+      "node_ids": [
+        "A5"
+      ],
+      "rationale": "Inspect the candidate contribution at Step 5."
+    },
+    {
+      "removal_id": "without_A2_A3",
+      "node_ids": [
+        "A2",
+        "A3"
+      ],
+      "rationale": "Inspect the combined literature connection and expectation qualification."
+    },
+    {
+      "removal_id": "without_A4_A5",
+      "node_ids": [
+        "A4",
+        "A5"
+      ],
+      "rationale": "Inspect the combined adjudication and reconstruction."
+    },
+    {
+      "removal_id": "without_recorded_AI",
+      "node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "rationale": "Inspect all candidate AI contributions in this record; this does not recreate an unassisted researcher."
+    },
+    {
+      "removal_id": "without_steps_1_to_2",
+      "node_ids": [
+        "A1",
+        "A2"
+      ],
+      "rationale": "Cumulative removal from the initial puzzle; reassess downstream outcomes on this branch."
+    },
+    {
+      "removal_id": "without_steps_1_to_3",
+      "node_ids": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "rationale": "Cumulative removal from the initial puzzle; reassess downstream outcomes on this branch."
+    },
+    {
+      "removal_id": "without_steps_1_to_4",
+      "node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "rationale": "Cumulative removal from the initial puzzle; reassess downstream outcomes on this branch."
+    }
+  ],
+  "route_semantics": "Each route requires its nodes and ancestors. Alternative declared routes are disjunctive. A missing declared route invites retrospective reconstruction; it is not an automatic finding of non-survival.",
+  "historical_ai_benefit_estimate": null,
+  "limits": "The initial graph is authored and may omit alternative routes. The sequential review may establish new routes under the declared premises. Survival judgments and historical discovery attribution are separate.",
+  "retained_input_policy": "Retain the supplied case evidence E0 and verified theory note T0 as the eligible corpus. Withdraw identified AI contributions and their old descendants. Allow new arguments from retained premises. T0 is curated for this retrospective illustration; its availability does not establish independent discovery by the original researcher. In the joint removal, no AI-contribution node remains available as a premise."
+}

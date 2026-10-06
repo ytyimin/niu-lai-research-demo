@@ -1,0 +1,61 @@
+{
+  "status": "illustrative_secondary_evidence",
+  "items": [
+    {
+      "evidence_id": "N1",
+      "source_type": "attributed_case_paraphrase",
+      "text": "Released August 5, 2026, the film initially had very limited commercial visibility. The supplied note reports opening-day receipts around RMB 3,400 and first-week receipts around RMB 5,500.",
+      "source_ids": [
+        "CASE_NOTE",
+        "BOX_OFFICE"
+      ],
+      "verification": "Opening date and rounded opening-day and first-week receipts corroborated against the linked box-office page on October 2, 2026. Other production details not independently audited.",
+      "not_causal_evidence": true
+    },
+    {
+      "evidence_id": "N2",
+      "source_type": "attributed_case_paraphrase",
+      "text": "The note reports widespread criticism and incredulity about animation quality alongside curiosity-driven ticket purchasing.",
+      "source_ids": [
+        "CASE_NOTE",
+        "THE_PAPER"
+      ],
+      "verification": "The linked August 15 report supports critical reception and curiosity; no individual-level causal identification.",
+      "not_causal_evidence": true
+    },
+    {
+      "evidence_id": "N3",
+      "source_type": "attributed_case_paraphrase",
+      "text": "Exhibitors reportedly differed over whether to add screenings: some responded to demand, while others questioned rewarding poor quality.",
+      "source_ids": [
+        "CASE_NOTE",
+        "THE_PAPER"
+      ],
+      "verification": "Qualitative contrast supported by the linked August 15 reporting. Later national screening shares remain unverified here.",
+      "not_causal_evidence": true
+    },
+    {
+      "evidence_id": "N4",
+      "source_type": "attributed_case_paraphrase",
+      "text": "The note describes polarized audience ratings, memes, remixed clips, handmade promotional materials, and participation extending beyond conventional film evaluation.",
+      "source_ids": [
+        "CASE_NOTE",
+        "GLOBAL_TIMES",
+        "ITHOME"
+      ],
+      "verification": "Retained as case-note observations. Exact rating distributions and all linked reporting were not independently authenticated in this revision.",
+      "not_causal_evidence": true
+    },
+    {
+      "evidence_id": "N5",
+      "source_type": "attributed_case_paraphrase",
+      "text": "The note describes a rapid commercial reversal followed by slower momentum. Its daily and later cumulative figures are historical claims with differing source coverage.",
+      "source_ids": [
+        "CASE_NOTE",
+        "BOX_OFFICE"
+      ],
+      "verification": "The live box-office page corroborates a substantial cumulative reversal; it does not verify every daily figure or the note’s exact historical cutoff.",
+      "not_causal_evidence": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "authored_illustrative_fixture",
+  "model_invocations": 0,
+  "not_empirical_results": true,
+  "human_judgments": "Scripted examples for review, not independent expert observations.",
+  "reference_only": "Authored reference outputs for review. Do not feed the full audit record to the restricted Step 3 module or reuse descendants in a removal replay."
+}

@@ -1,0 +1,26 @@
+{
+  "packet_id": "harborline-held-out-v1",
+  "sealed_until_state": "reconstruction_locked",
+  "items": [
+    {
+      "evidence_id": "H1",
+      "setting": "A second region handling reversible routine repairs",
+      "text": "Teams used the dashboard to reserve crews provisionally before approval. Median resolution time fell, and managers approved 31 of 32 proposed reallocations without modification."
+    },
+    {
+      "evidence_id": "H2",
+      "setting": "Hazardous-material incidents with irreversible safety consequences",
+      "text": "Dispatchers did not make provisional commitments. They waited for a central safety officer to select and authorize the receiving crew, and response time did not improve."
+    },
+    {
+      "evidence_id": "H3",
+      "setting": "A region with incomplete dashboard updates",
+      "text": "Lateral reservations frequently failed because displayed crew availability was stale. Managers resumed assembling reallocations centrally until data quality improved."
+    },
+    {
+      "evidence_id": "H4",
+      "setting": "Implementation audit",
+      "text": "Incident severity and staffing levels were similar across the focal pre- and post-implementation periods, although the synthetic packet cannot rule out every time-varying alternative."
+    }
+  ]
+}
